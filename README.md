@@ -1,25 +1,35 @@
-# Bootstrap 3 Date/Time Picker
-![GitHub version](https://badge.fury.io/gh/Eonasdan%2Fbootstrap-datetimepicker.png)&nbsp;&nbsp;&nbsp;![Travis](https://travis-ci.org/Eonasdan/bootstrap-datetimepicker.svg?branch=development)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R53OEFF)
 
-![DateTimePicker](http://i.imgur.com/nfnvh5g.png)
+# Paid support only
 
-## [View the manual and demos](http://eonasdan.github.io/bootstrap-datetimepicker/)
+Please note that I'm moving on to other projects. New issues will need to be sponsored. This can be done via BountySource or my other donation links. Please reach out to me first so we can discuss the terms. Thank you for your years of support.
 
-#v4
-v4 is out now! For v4 related bugs and issues see: /Eonasdan/bootstrap-datetimepicker/labels/v4.
+# Tempus Dominus Date/Time Picker v6.9.4
 
-v3 is going into an archive state. Please be sure to check the documents. v4 has breaking changes and is a major rewrite.
+Tempus Dominus is a powerful and robust date time picker for javascript. Version 6 is another major rewrite over the previous version. V6 is written with modern browsers in mind and is written in typescript. Bootstrap, momentjs and jQuery are no longer required dependencies. Popper2 is all that is required for the picker to position correctly. If you still require jQuery (seriously, you should move off that asap) there's a jQuery provider that wraps the native js functions.
 
-## Submitting Issues
-If you have issues, please check the following first:
-* Have you read the docs? 
-* Do you have the latest version of momentjs?
-* Do you have the latest version of jQuery?
-* Please test and/or fork [this jsfiddle](http://jsfiddle.net/Eonasdan/0Ltv25o8/) with an example of your issue before you post an issue here. 
+# Developers
+
+## Building
+
+Run `npm i` to install needed packages.
+
+The docs folder contains the generated documentation site, don't modify this directly as it will be overwritten on build. The dist folder contains the built js/css files.
+
+## Running
+
+You can run `npm run serve` which will start a web server. Navigate to `http://localhost:3001/` to view the docs.
+
+## Watching for changes
+
+Do not run `npm run serve` at the same time.
+
+Run `npm start`. This runs web server, the build and watchers for the docs, styles, and typescript.
 
 ## Where do you use this?
-I'd love to know if your public site is using this plugin and list your logo on the documentation site. Please email me `eonasdan at outlook dot com`. Do not submit issue/feature request to this email, they will be ignored.
 
-## [Installation instructions](https://github.com/Eonasdan/bootstrap-datetimepicker/wiki/Installation)
+I'd love to know if your public site is using this plugin and list your logo on the documentation site. Leave [create a discussion](https://github.com/Eonasdan/tempus-dominus/discussions/categories/show-your-love) and let me know.
 
-## [Change Log](https://github.com/Eonasdan/bootstrap-datetimepicker/wiki/Version-4-changelog)
+## Priority support is available at an hourly rate.
+
+If you have an urgent request, bug or need installation help, please contact in the discord server.
